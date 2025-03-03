@@ -43,3 +43,5 @@ Thumbs.db
 
 /.envserver/.env
 
+server/.env
+server/.env
