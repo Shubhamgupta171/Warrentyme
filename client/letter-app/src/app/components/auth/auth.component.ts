@@ -17,7 +17,7 @@ export class AuthComponent {
   loginWithGoogle() {
     // Implement Google OAuth login logic
     const googleAuthUrl = 'https://accounts.google.com/o/oauth2/auth';
-    const clientId = 'YOUR_GOOGLE_CLIENT_ID';
+    const clientId = '83684119694-ndkpblffo9h1s6d6ttdful5bv5ma8maa.apps.googleusercontent.com';
     const redirectUri = 'http://localhost:4200/auth';
     const scope = 'profile email https://www.googleapis.com/auth/drive.file';
     window.location.href = `${googleAuthUrl}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scope}&response_type=token`;

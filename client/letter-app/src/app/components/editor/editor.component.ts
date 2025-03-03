@@ -20,6 +20,7 @@ export class EditorComponent {
   saveToDrive() {
     this.driveService.saveToDrive(this.content).subscribe((res) => {
       console.log('Saved to Google Drive:', res);
+      alert(" saved to google account");
     });
   }
 }
