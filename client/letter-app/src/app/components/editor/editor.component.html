@@ -1,0 +1,8 @@
+<div class="editor-container">
+    <h1>Letter Editor</h1>
+    <textarea [(ngModel)]="content" placeholder="Write your letter here..." class="editor-textarea"></textarea>
+    <div class="button-container">
+      <button (click)="saveToDrive()" class="save-button">Save to Google Drive</button>
+    </div>
+    <a routerLink="/auth" class="nav-link">Go to auth</a>
+  </div>
